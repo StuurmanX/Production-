@@ -1,0 +1,30 @@
+body {
+    background-color:powderblue;
+    color: blue;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #37559d;
+  }
+  
+  a {
+    color: #5165ff;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr:hover {
+    background: #f2f3ff;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  td {
+    border: 2px solid #ccd2ff;
+    position: relative;
+    padding: 18px;
+  }
