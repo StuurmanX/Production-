@@ -28,3 +28,23 @@ body {
     position: relative;
     padding: 18px;
   }
+
+  #comment {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    width: 100%;
+    }
+
+    #label {
+      position: absolute;
+      top: 470px;
+      left: 15px;
+    }
+    
+    #container {
+      position: relative;
+    }
+    textarea {
+      display: block;
+    }
