@@ -31,20 +31,15 @@ body {
 
   #comment {
     position: absolute;
-    top: 500px;
+    top: 600px;
     left: 10px;
     width: 100%;
     }
 
     #label {
       position: absolute;
-      top: 470px;
+      top: 570px;
       left: 15px;
     }
     
-    #container {
-      position: relative;
-    }
-    textarea {
-      display: block;
-    }
+    
