@@ -42,23 +42,63 @@ body {
       left: 15px;
     }
 
-    #row-5 td {
+    #row-1 td {
       padding: 10px;
       text-align: left;
       border: 1px solid #ddd;
     }
     
-    #row-5 td label {
+    #row-1 td label {
       font-weight: bold;
       margin-right: 10px;
     }
     
-    #row-5 select {
+    #row-1 select {
       width: 200px;
       padding: 5px;
       font-size: 14px;
       border-radius: 5px;
       border: 1px solid #ddd;
     }
+    
+    #row-2 td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    
+    #row-2 td label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    
+    #row-2 select {
+      width: 200px;
+      padding: 5px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+
+    #row-3 td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    
+    #row-3 td label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    
+    #row-3 select {
+      width: 200px;
+      padding: 5px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+    
+    
     
     
