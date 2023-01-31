@@ -41,5 +41,24 @@ body {
       top: 570px;
       left: 15px;
     }
+
+    #row-5 td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    
+    #row-5 td label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    
+    #row-5 select {
+      width: 200px;
+      padding: 5px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
     
     
