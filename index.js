@@ -5,16 +5,19 @@ for (let i = 1; i <= 3; i++) {
     });
   }
 
-  let counter = document.getElementById("counter");
-  let status = document.getElementById("status");
-  let interval;
+const select = document.querySelector("#status");
+const counter = document.querySelector("#counter");
+let startTime;
 
-  status.addEventListener("change", function() {
-    clearInterval(interval);
-    counter.innerHTML = 0;
-    if (status.value === "Minor clean") {
-      interval = setInterval(function() {
-        counter.innerHTML = parseInt(counter.innerHTML) + 1;
-      }, 1000);
-    }
-   });
+select.addEventListener("change", function(event) {
+  const selectedOption = event.target.value;
+  if (startTime) {
+    const endTime = new Date();
+    const duration = (endTime - startTime) / 1000;
+    counter.innerHTML = `Time spent on "${selectedOption}": ${duration} seconds`;
+    startTime = undefined;
+  } else {
+    startTime = new Date();
+    counter.innerHTML = `Started "${selectedOption}"`;
+  }
+});
